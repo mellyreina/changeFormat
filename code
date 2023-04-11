@@ -1,0 +1,22 @@
+#include <iostream>
+#include <conio.h>
+#include <stdio.h>
+using namespace std;
+
+int main()
+{ 
+   int a=181;
+   printf("%d \n",a); // 10luk taban - demical
+   printf("%x \n",a); // 16lık taban - hexademical - küçük harflerle
+   printf("%X \n",a); // 16lık taban - hexademical - büyük harflerle
+   printf("%o \n",a); // 8lik taban - octal
+   
+   a= 0x1C4F; //hexademical --> demical
+   printf("%d \n",a);
+   
+   a= 06215; // octal -> demical
+   printf("%d \n",a);
+   
+	system("pause");
+	return 0;
+}
